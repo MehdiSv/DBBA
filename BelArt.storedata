@@ -1005,7 +1005,7 @@
     </object>
     <object type="MOYEN" id="z218">
         <attribute name="moyen" type="string">Especes</attribute>
-        <relationship name="transaction" type="0/0" destination="TRANSACTION" idrefs="z302 z249 z321 z251 z235 z244 z325 z306 z314 z300 z287 z301 z242 z233 z267 z264 z230 z298 z291 z319 z297 z299 z294 z257 z229 z310"></relationship>
+        <relationship name="transaction" type="0/0" destination="TRANSACTION" idrefs="z314 z264 z242 z230 z294 z251 z301 z235 z302 z229 z299 z287 z231 z267 z321 z244 z297 z233 z291 z249 z257 z325 z298 z306 z300 z310 z319"></relationship>
     </object>
     <object type="MOYEN" id="z219">
         <attribute name="moyen" type="string">Carte Bancaire</attribute>
@@ -1017,7 +1017,7 @@
     </object>
     <object type="MOYEN" id="z221">
         <attribute name="moyen" type="string">Effet</attribute>
-        <relationship name="transaction" type="0/0" destination="TRANSACTION" idrefs="z236 z246 z228 z222 z227 z250 z223 z232 z237 z241 z245 z255 z248 z225 z254 z224 z253"></relationship>
+        <relationship name="transaction" type="0/0" destination="TRANSACTION" idrefs="z227 z223 z225 z256 z254 z240 z253 z236 z250 z228 z241 z255 z232 z245 z224 z237 z248 z246 z222"></relationship>
     </object>
     <object type="TRANSACTION" id="z222">
         <attribute name="shopexpense" type="bool">1</attribute>
@@ -1106,6 +1106,16 @@
         <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z218"></relationship>
         <relationship name="vente" type="0/1" destination="VENTE"></relationship>
     </object>
+    <object type="TRANSACTION" id="z231">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">500</attribute>
+        <attribute name="dateeffet" type="date">410313600.00000000000000000000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z218"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
     <object type="TRANSACTION" id="z232">
         <attribute name="shopexpense" type="bool">1</attribute>
         <attribute name="montant" type="float">22000</attribute>
@@ -1179,6 +1189,16 @@
         <relationship name="client" type="0/1" destination="CLIENT"></relationship>
         <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
         <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z220"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z240">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">1000</attribute>
+        <attribute name="dateeffet" type="date">410486400.00000000000000000000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z221"></relationship>
         <relationship name="vente" type="0/1" destination="VENTE"></relationship>
     </object>
     <object type="TRANSACTION" id="z241">
@@ -1319,6 +1339,16 @@
         <attribute name="montant" type="float">13600</attribute>
         <attribute name="dateeffet" type="date">445651200.00000000000000000000</attribute>
         <relationship name="achat" type="0/1" destination="ACHAT" idrefs="z112"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z221"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z256">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">12</attribute>
+        <attribute name="dateeffet" type="date">410313600.00000000000000000000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
         <relationship name="client" type="0/1" destination="CLIENT"></relationship>
         <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
         <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z221"></relationship>
