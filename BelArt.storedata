@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>F58EE0D0-EABE-4C53-BF4C-1A172FF3AD5C</UUID>
-        <nextObjectID>347</nextObjectID>
+        <nextObjectID>370</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -2060,6 +2060,144 @@
     <object type="CLIENT" id="z347">
         <attribute name="prenom" type="string">Marwa</attribute>
         <attribute name="nom" type="string">Ismaili</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z348">
+        <attribute name="prenom" type="string">ILham</attribute>
+        <attribute name="nom" type="string">Valentino</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z349">
+        <attribute name="prenom" type="string">Asmae</attribute>
+        <attribute name="nom" type="string">Laraichi</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z350">
+        <attribute name="prenom" type="string">Naima</attribute>
+        <attribute name="nom" type="string">Laraichi</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z351">
+        <attribute name="prenom" type="string">Amal</attribute>
+        <attribute name="nom" type="string">Laraichi</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z352">
+        <attribute name="prenom" type="string">Najat</attribute>
+        <attribute name="nom" type="string">Kajja</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z353">
+        <attribute name="prenom" type="string">Hajjar</attribute>
+        <attribute name="nom" type="string">Kiné</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z354">
+        <attribute name="prenom" type="string">Leila</attribute>
+        <attribute name="nom" type="string">Lahlou</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z355">
+        <attribute name="prenom" type="string">Amal</attribute>
+        <attribute name="nom" type="string">Ghaouti</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z356">
+        <attribute name="prenom" type="string">Leila</attribute>
+        <attribute name="nom" type="string">Baddou</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z357">
+        <attribute name="prenom" type="string">Nisserine</attribute>
+        <attribute name="nom" type="string">Tahiri</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z358">
+        <attribute name="prenom" type="string">Lamiae</attribute>
+        <attribute name="nom" type="string">Agence de voyage</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z359">
+        <attribute name="prenom" type="string">Bouchra</attribute>
+        <attribute name="nom" type="string">Sentissi</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z360">
+        <attribute name="prenom" type="string">Mounia</attribute>
+        <attribute name="nom" type="string">Oulhaj</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z361">
+        <attribute name="prenom" type="string">Mariam</attribute>
+        <attribute name="nom" type="string">Tahiri</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z362">
+        <attribute name="prenom" type="string">Bouchra</attribute>
+        <attribute name="nom" type="string">Sayagh</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z363">
+        <attribute name="prenom" type="string">Nawar</attribute>
+        <attribute name="nom" type="string">Razzaki</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z364">
+        <attribute name="prenom" type="string">Mohamed</attribute>
+        <attribute name="nom" type="string">Razzaki</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z365">
+        <attribute name="prenom" type="string">Saida</attribute>
+        <attribute name="nom" type="string">Bouchra</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z366">
+        <attribute name="prenom" type="string">Paranice</attribute>
+        <attribute name="nom" type="string">Employé</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z367">
+        <attribute name="prenom" type="string">Salma</attribute>
+        <attribute name="nom" type="string">Daghoussi</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z368">
+        <attribute name="prenom" type="string">Touria</attribute>
+        <attribute name="nom" type="string">Sayagh</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z369">
+        <attribute name="prenom" type="string">Bouchra</attribute>
+        <attribute name="nom" type="string">Tazi</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z370">
+        <attribute name="prenom" type="string">Najat</attribute>
+        <attribute name="nom" type="string">Harradit</attribute>
         <relationship name="achats" type="0/0" destination="VENTE"></relationship>
         <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
     </object>
