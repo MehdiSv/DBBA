@@ -1356,7 +1356,7 @@
     </object>
     <object type="TRANSACTION" id="z257">
         <attribute name="date" type="date">410572800.00000000000000000000</attribute>
-        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="shopexpense" type="bool">0</attribute>
         <attribute name="nom" type="string">pressing</attribute>
         <attribute name="montant" type="float">100</attribute>
         <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
