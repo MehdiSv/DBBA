@@ -1084,7 +1084,7 @@
         <relationship name="vente" type="0/1" destination="VENTE"></relationship>
     </object>
     <object type="TRANSACTION" id="z229">
-        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="shopexpense" type="bool">0</attribute>
         <attribute name="nom" type="string">Electricite</attribute>
         <attribute name="montant" type="float">5000</attribute>
         <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
