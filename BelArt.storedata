@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>F58EE0D0-EABE-4C53-BF4C-1A172FF3AD5C</UUID>
-        <nextObjectID>410</nextObjectID>
+        <nextObjectID>472</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -1020,7 +1020,7 @@
     </object>
     <object type="CATEGORY" id="z209">
         <attribute name="name" type="string">Pendantif</attribute>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z194 z193 z116 z147 z161 z114 z120 z122 z125 z115 z183 z158 z204 z200 z167 z126 z121 z205 z191 z207 z127 z392 z192 z139 z168 z138 z162"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z205 z167 z121 z147 z120 z126 z116 z191 z207 z138 z127 z139 z168 z114 z122 z418 z392 z162 z194 z193 z161 z466 z192 z158 z115 z125 z183 z204 z200"></relationship>
     </object>
     <object type="CATEGORY" id="z210">
         <attribute name="name" type="string">fred</attribute>
@@ -1028,15 +1028,15 @@
     </object>
     <object type="CATEGORY" id="z211">
         <attribute name="name" type="string">bague</attribute>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z160 z206 z150 z172 z174 z189 z196 z128 z188 z135 z118 z164 z199 z133 z170 z375 z166 z119 z184 z144 z169 z182 z201 z179 z165 z124 z159 z197 z148 z195 z142 z177 z371 z143 z378 z136 z130 z181 z137 z173 z175 z117 z141 z171 z202 z190"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z164 z189 z199 z201 z128 z181 z166 z118 z188 z133 z463 z202 z150 z119 z169 z195 z144 z137 z196 z172 z375 z206 z378 z136 z124 z422 z165 z453 z371 z420 z148 z135 z190 z142 z160 z170 z182 z184 z173 z117 z143 z141 z197 z179 z130 z171 z177 z174 z159 z175"></relationship>
     </object>
     <object type="CATEGORY" id="z212">
         <attribute name="name" type="string">Boucle</attribute>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z180 z154 z178 z391 z203 z155 z187 z382 z129 z132 z163 z198"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z180 z391 z178 z163 z382 z129 z203 z187 z155 z465 z419 z198 z467 z132 z154"></relationship>
     </object>
     <object type="CATEGORY" id="z213">
         <attribute name="name" type="string">bracelet</attribute>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z186 z140 z401 z153"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z186 z454 z140 z455 z401 z153"></relationship>
     </object>
     <object type="CATEGORY" id="z214">
         <attribute name="name" type="string">Sautoir</attribute>
@@ -1044,7 +1044,7 @@
     </object>
     <object type="CATEGORY" id="z215">
         <attribute name="name" type="string">Gourmette</attribute>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z152 z156 z145 z146 z157 z386"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z152 z157 z146 z386 z145 z423 z425 z424 z426 z156"></relationship>
     </object>
     <object type="CATEGORY" id="z216">
         <attribute name="name" type="string">chouka</attribute>
@@ -1052,7 +1052,7 @@
     </object>
     <object type="CATEGORY" id="z217">
         <attribute name="name" type="string">dinvhan</attribute>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z176"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z176 z448 z412 z411"></relationship>
     </object>
     <object type="CATEGORY" id="z218">
         <attribute name="name" type="string">fakroune</attribute>
@@ -1064,7 +1064,7 @@
     </object>
     <object type="CATEGORY" id="z220">
         <attribute name="name" type="string">Chaine</attribute>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z134 z131 z405 z408 z393 z151 z185 z149"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z421 z134 z131 z405 z408 z393 z151 z185 z149"></relationship>
     </object>
     <object type="CATEGORY" id="z221">
         <attribute name="name" type="string">tchamar</attribute>
@@ -1326,7 +1326,7 @@
         <attribute name="reportdette" type="float">0</attribute>
         <attribute name="prenom" type="string">Mounia</attribute>
         <attribute name="nom" type="string">Oulhaj</attribute>
-        <relationship name="achats" type="0/0" destination="VENTE"></relationship>
+        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z440"></relationship>
         <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
     </object>
     <object type="CLIENT" id="z259">
@@ -1337,10 +1337,10 @@
         <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
     </object>
     <object type="CLIENT" id="z260">
-        <attribute name="reportdette" type="float">0</attribute>
+        <attribute name="reportdette" type="float">10850</attribute>
         <attribute name="prenom" type="string">Touria</attribute>
         <attribute name="nom" type="string">Sayagh</attribute>
-        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z406"></relationship>
+        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z406 z414"></relationship>
         <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
     </object>
     <object type="CLIENT" id="z261">
@@ -1477,14 +1477,14 @@
         <attribute name="nom" type="string">Oromecanica</attribute>
         <attribute name="email" type="string">neant</attribute>
         <relationship name="achats" type="0/0" destination="ACHAT" idrefs="z111 z106 z102 z109"></relationship>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z164 z405 z147 z167 z116 z115 z204 z166 z408 z183 z121 z200 z152 z202 z146 z151 z195 z156 z378 z375 z206 z136 z131 z191 z139 z207 z168 z180 z187 z148 z135 z142 z160 z170 z161 z149 z117 z178 z176 z141 z179 z171 z159 z174 z158"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z202 z419 z135 z167 z423 z131 z179 z146 z176 z142 z204 z191 z116 z418 z171 z426 z411 z151 z160 z170 z405 z166 z139 z159 z195 z422 z183 z207 z174 z156 z161 z121 z168 z421 z448 z158 z408 z378 z117 z412 z200 z149 z187 z424 z180 z164 z375 z178 z152 z148 z425 z147 z115 z136 z141 z206"></relationship>
     </object>
     <object type="FOURNISSEUR" id="z281">
         <attribute name="reportdette" type="float">0</attribute>
         <attribute name="prenom" type="string">Mohamed</attribute>
         <attribute name="nom" type="string">soussi</attribute>
         <relationship name="achats" type="0/0" destination="ACHAT"></relationship>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z382 z163"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z163 z467 z382"></relationship>
     </object>
     <object type="FOURNISSEUR" id="z282">
         <attribute name="tel" type="string">0672378056</attribute>
@@ -1492,8 +1492,8 @@
         <attribute name="prenom" type="string">Azzedine</attribute>
         <attribute name="nom" type="string">Seffiani</attribute>
         <attribute name="email" type="string">neant</attribute>
-        <relationship name="achats" type="0/0" destination="ACHAT" idrefs="z110 z104 z105"></relationship>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z186 z114 z140 z120 z122 z125 z126 z129 z181 z196 z182 z391 z143 z392 z188 z165 z157 z133 z371 z162"></relationship>
+        <relationship name="achats" type="0/0" destination="ACHAT" idrefs="z104 z105 z110"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z133 z143 z465 z186 z120 z126 z196 z165 z371 z114 z122 z129 z182 z392 z157 z162 z466 z140 z125 z181 z391 z188"></relationship>
     </object>
     <object type="FOURNISSEUR" id="z283">
         <attribute name="tel" type="string">0661154904</attribute>
@@ -1537,7 +1537,7 @@
         <attribute name="nom" type="string">Settaouni</attribute>
         <attribute name="email" type="string">neant</attribute>
         <relationship name="achats" type="0/0" destination="ACHAT" idrefs="z112"></relationship>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z155 z138 z119 z205 z189 z144 z173 z128 z198 z154 z118 z124 z127 z194 z197 z145 z193 z177 z150 z132"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z154 z197 z177 z138 z189 z128 z118 z127 z145 z150 z453 z119 z144 z198 z124 z194 z193 z132 z155 z205 z173"></relationship>
     </object>
     <object type="FOURNISSEUR" id="z288">
         <attribute name="tel" type="string">0671743402</attribute>
@@ -1546,7 +1546,7 @@
         <attribute name="nom" type="string">Bellamlih</attribute>
         <attribute name="email" type="string">neant</attribute>
         <relationship name="achats" type="0/0" destination="ACHAT"></relationship>
-        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z385 z130 z175 z386 z401 z169 z123 z203 z199 z190"></relationship>
+        <relationship name="articles" type="0/0" destination="ARTICLE" idrefs="z130 z199 z386 z420 z203 z454 z385 z175 z401 z455 z463 z169 z123 z190"></relationship>
     </object>
     <object type="MOYEN" id="z289">
         <attribute name="moyen" type="string">Cheque</attribute>
@@ -1558,7 +1558,7 @@
     </object>
     <object type="MOYEN" id="z291">
         <attribute name="moyen" type="string">Especes</attribute>
-        <relationship name="transaction" type="0/0" destination="TRANSACTION" idrefs="z331 z351 z321 z310 z410 z384 z343 z346 z332 z398 z299 z340 z300 z297 z312 z400 z323 z303 z374 z407 z396 z322 z381 z377 z337 z334 z293 z388 z304 z306 z348 z316 z301 z325 z308 z390 z305"></relationship>
+        <relationship name="transaction" type="0/0" destination="TRANSACTION" idrefs="z377 z331 z308 z435 z381 z316 z398 z460 z348 z321 z299 z410 z374 z433 z306 z337 z303 z447 z312 z415 z384 z293 z304 z452 z334 z442 z300 z340 z469 z343 z444 z471 z390 z458 z396 z332 z441 z439 z297 z322 z438 z346 z462 z325 z388 z450 z310 z301 z400 z407 z351 z431 z305 z323"></relationship>
     </object>
     <object type="MOYEN" id="z292">
         <attribute name="moyen" type="string">Effet</attribute>
@@ -2494,7 +2494,7 @@
         <attribute name="reportdette" type="float">0</attribute>
         <attribute name="prenom" type="string">Hajja</attribute>
         <attribute name="nom" type="string">Sayagh</attribute>
-        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z403"></relationship>
+        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z403 z413"></relationship>
         <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
     </object>
     <object type="VENTE" id="z403">
@@ -2560,5 +2560,482 @@
         <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
         <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
         <relationship name="vente" type="0/1" destination="VENTE" idrefs="z409"></relationship>
+    </object>
+    <object type="ARTICLE" id="z411">
+        <attribute name="prixgr" type="float">425</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">0.4</attribute>
+        <attribute name="nom" type="string">Fillette</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z217"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z413"></relationship>
+    </object>
+    <object type="ARTICLE" id="z412">
+        <attribute name="prixgr" type="float">700</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">0.7</attribute>
+        <attribute name="nom" type="string">Fillette perle</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z217"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z414"></relationship>
+    </object>
+    <object type="VENTE" id="z413">
+        <attribute name="montant" type="float">400</attribute>
+        <attribute name="date" type="date">442713600.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z411"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z402"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="VENTE" id="z414">
+        <attribute name="montant" type="float">500</attribute>
+        <attribute name="date" type="date">442713600.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z412"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z260"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z415"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z415">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">500</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z414"></relationship>
+    </object>
+    <object type="CLIENT" id="z416">
+        <attribute name="reportdette" type="float">0</attribute>
+        <attribute name="prenom" type="string">Farida</attribute>
+        <attribute name="nom" type="string">Ajana</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z445 z451 z443 z449 z446"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="CLIENT" id="z417">
+        <attribute name="reportdette" type="float">-5000</attribute>
+        <attribute name="prenom" type="string">Imane</attribute>
+        <attribute name="nom" type="string">Angleterre</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z434 z437 z430 z432"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="ARTICLE" id="z418">
+        <attribute name="prixgr" type="float">370</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">4</attribute>
+        <attribute name="nom" type="string">Simple</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z209"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z445"></relationship>
+    </object>
+    <object type="ARTICLE" id="z419">
+        <attribute name="prixgr" type="float">370</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">7.5</attribute>
+        <attribute name="nom" type="string">simple</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z212"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z443"></relationship>
+    </object>
+    <object type="ARTICLE" id="z420">
+        <attribute name="prixgr" type="float">360</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">6.4</attribute>
+        <attribute name="nom" type="string">Import pierre verte</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z211"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z288"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z451"></relationship>
+    </object>
+    <object type="ARTICLE" id="z421">
+        <attribute name="prixgr" type="float">360</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">3.6</attribute>
+        <attribute name="nom" type="string">Simple</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z220"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z446"></relationship>
+    </object>
+    <object type="ARTICLE" id="z422">
+        <attribute name="prixgr" type="float">360</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">3.6</attribute>
+        <attribute name="nom" type="string">Boule 3 Ors</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z211"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z430"></relationship>
+    </object>
+    <object type="ARTICLE" id="z423">
+        <attribute name="prixgr" type="float">360</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">2.7</attribute>
+        <attribute name="nom" type="string">Boule Or blanc</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z215"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z432"></relationship>
+    </object>
+    <object type="ARTICLE" id="z424">
+        <attribute name="prixgr" type="float">360</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">2.7</attribute>
+        <attribute name="nom" type="string">Boule Or rose</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z215"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z437"></relationship>
+    </object>
+    <object type="ARTICLE" id="z425">
+        <attribute name="prixgr" type="float">370</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">3</attribute>
+        <attribute name="nom" type="string">Fillette avec broloques</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z215"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z440"></relationship>
+    </object>
+    <object type="ARTICLE" id="z426">
+        <attribute name="prixgr" type="float">360</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">2.7</attribute>
+        <attribute name="nom" type="string">Boule Or jaune</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z215"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z434"></relationship>
+    </object>
+    <object type="VENTE" id="z430">
+        <attribute name="montant" type="float">1900</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z422"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z417"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z431">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="VENTE" id="z432">
+        <attribute name="montant" type="float">1200</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z423"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z417"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z433">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">1200</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="VENTE" id="z434">
+        <attribute name="montant" type="float">1200</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z426"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z417"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z435">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">1200</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="VENTE" id="z437">
+        <attribute name="montant" type="float">1200</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z424"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z417"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z438">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">1200</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z439">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">700</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="VENTE" id="z440">
+        <attribute name="montant" type="float">1150</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z425"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z258"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z441"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z441">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">1150</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z440"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z442">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">3500</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z443"></relationship>
+    </object>
+    <object type="VENTE" id="z443">
+        <attribute name="montant" type="float">3500</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z419"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z416"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z442"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z444">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">2000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z445"></relationship>
+    </object>
+    <object type="VENTE" id="z445">
+        <attribute name="montant" type="float">2000</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z418"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z416"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z444"></relationship>
+    </object>
+    <object type="VENTE" id="z446">
+        <attribute name="montant" type="float">1500</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z421"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z416"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z447"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z447">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">1500</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z446"></relationship>
+    </object>
+    <object type="ARTICLE" id="z448">
+        <attribute name="prixgr" type="float">700</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">1</attribute>
+        <attribute name="nom" type="string">Perle bordeaux</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z217"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z280"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z449"></relationship>
+    </object>
+    <object type="VENTE" id="z449">
+        <attribute name="montant" type="float">900</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z448"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z416"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z450"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z450">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">900</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z449"></relationship>
+    </object>
+    <object type="VENTE" id="z451">
+        <attribute name="montant" type="float">2500</attribute>
+        <attribute name="date" type="date">442800000.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z420"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z416"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z452"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z452">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">2500</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z451"></relationship>
+    </object>
+    <object type="ARTICLE" id="z453">
+        <attribute name="prixgr" type="float">380</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">6.2</attribute>
+        <attribute name="nom" type="string">Mariage</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z211"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z287"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z457"></relationship>
+    </object>
+    <object type="ARTICLE" id="z454">
+        <attribute name="prixgr" type="float">370</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">12.6</attribute>
+        <attribute name="nom" type="string">Motif marguerite or J</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z213"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z288"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z459"></relationship>
+    </object>
+    <object type="ARTICLE" id="z455">
+        <attribute name="prixgr" type="float">370</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">12.6</attribute>
+        <attribute name="nom" type="string">Motifs marguerite or B</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z213"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z288"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z461"></relationship>
+    </object>
+    <object type="CLIENT" id="z456">
+        <attribute name="reportdette" type="float">0</attribute>
+        <attribute name="prenom" type="string">Nouvelle</attribute>
+        <attribute name="nom" type="string">D</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z459 z461 z457"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="VENTE" id="z457">
+        <attribute name="montant" type="float">3000</attribute>
+        <attribute name="date" type="date">442886400.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z453"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z456"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z458"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z458">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">3000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z457"></relationship>
+    </object>
+    <object type="VENTE" id="z459">
+        <attribute name="montant" type="float">5000</attribute>
+        <attribute name="date" type="date">442886400.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z454"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z456"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z460"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z460">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">5000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z459"></relationship>
+    </object>
+    <object type="VENTE" id="z461">
+        <attribute name="montant" type="float">5000</attribute>
+        <attribute name="date" type="date">442886400.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z455"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z456"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z462"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z462">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">5000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z461"></relationship>
+    </object>
+    <object type="ARTICLE" id="z463">
+        <attribute name="prixgr" type="float">380</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">2.6</attribute>
+        <attribute name="nom" type="string">Alliance</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z211"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z288"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z468"></relationship>
+    </object>
+    <object type="CLIENT" id="z464">
+        <attribute name="reportdette" type="float">0</attribute>
+        <attribute name="prenom" type="string">Imarati</attribute>
+        <attribute name="nom" type="string">Sanae</attribute>
+        <relationship name="achats" type="0/0" destination="VENTE" idrefs="z470 z472 z468"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
+    </object>
+    <object type="ARTICLE" id="z465">
+        <attribute name="prixgr" type="float">380</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">11.3</attribute>
+        <attribute name="nom" type="string">Or blanc </attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z212"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z282"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z470"></relationship>
+    </object>
+    <object type="ARTICLE" id="z466">
+        <attribute name="prixgr" type="float">380</attribute>
+        <attribute name="prixachat" type="float">0</attribute>
+        <attribute name="poids" type="float">5.3</attribute>
+        <attribute name="nom" type="string">Or blanc</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z209"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z282"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z472"></relationship>
+    </object>
+    <object type="ARTICLE" id="z467">
+        <attribute name="prixgr" type="float">0</attribute>
+        <attribute name="prixachat" type="float">380</attribute>
+        <attribute name="poids" type="float">0</attribute>
+        <attribute name="nom" type="string">PETITE</attribute>
+        <relationship name="category" type="0/1" destination="CATEGORY" idrefs="z212"></relationship>
+        <relationship name="fournisseur" type="0/1" destination="FOURNISSEUR" idrefs="z281"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE"></relationship>
+    </object>
+    <object type="VENTE" id="z468">
+        <attribute name="montant" type="float">1400</attribute>
+        <attribute name="date" type="date">442886400.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z463"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z464"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z469"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z469">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">1100</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z468"></relationship>
+    </object>
+    <object type="VENTE" id="z470">
+        <attribute name="montant" type="float">5000</attribute>
+        <attribute name="date" type="date">442886400.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z465"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z464"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION" idrefs="z471"></relationship>
+    </object>
+    <object type="TRANSACTION" id="z471">
+        <attribute name="shopexpense" type="bool">1</attribute>
+        <attribute name="montant" type="float">5000</attribute>
+        <relationship name="achat" type="0/1" destination="ACHAT"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT"></relationship>
+        <relationship name="compte" type="0/1" destination="COMPTE"></relationship>
+        <relationship name="moyen" type="0/1" destination="MOYEN" idrefs="z291"></relationship>
+        <relationship name="vente" type="0/1" destination="VENTE" idrefs="z470"></relationship>
+    </object>
+    <object type="VENTE" id="z472">
+        <attribute name="montant" type="float">5.6</attribute>
+        <attribute name="date" type="date">442886400.00000000000000000000</attribute>
+        <relationship name="article" type="0/1" destination="ARTICLE" idrefs="z466"></relationship>
+        <relationship name="client" type="0/1" destination="CLIENT" idrefs="z464"></relationship>
+        <relationship name="transactions" type="0/0" destination="TRANSACTION"></relationship>
     </object>
 </database>
